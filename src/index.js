@@ -25,7 +25,7 @@ import {app} from './app.js'
 // const app = express();
 
 // Load environment variables from .env file
-dotenv.config({ path: './env' });
+dotenv.config({ path: './.env' });
 
 // Connect to MongoDB
 connectDB()
